@@ -1,0 +1,126 @@
+/* pages/cart/cart.wxss */
+page {
+  background-color: #e7e5e9;
+}
+
+/* 顶部操作区域 */
+.navContainer {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  width: 100vw;
+  height: 8vh;
+  line-height: 8vh;
+  padding: 0 3vw;
+  color: red;
+  background-color: black;
+}
+
+/* 订单展示区域 */
+.container {
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 92vh;
+  padding: 8vh 0 10vh;
+  background-color: #e7e5e9;
+}
+
+.item-container {
+  box-sizing: border-box;
+  width: 96vw;
+  margin: 0 auto;
+  height: 20vh;
+  margin-bottom: 2vw;
+  border-radius: 1vw;
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto auto 5fr;
+  border: black solid 1px;
+}
+
+.item-checkbox{
+  height: 20vh;
+  line-height: 20vh;
+}
+
+.checkbox .wx-checkbox-input {
+  margin-left: -2vw;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid gray;
+  background-color: black;
+}
+.item-image {
+  box-sizing: border-box;
+  width: 20vh;
+  height: 20vh;
+  padding: 1vw;
+}
+
+.item-content {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 1vw 2vw 2vw 1vw;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.bottom-btn {
+  float: left;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.num-input {
+  width: 10vw;
+  background-color: #e7e5e9;
+  border-radius: 3vw;
+}
+
+.bottom-price {
+  color: red;
+  text-align: right;
+}
+
+/* 底部操作区域 */
+.bottomContainer {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  height: 10vh;
+  line-height: 10vh;
+  width: 100vw;
+  border-top: 1px solid red;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+}
+
+.checkbox {
+  margin-left: 3vw;
+}
+
+.bottom-checkbox .wx-checkbox-input {
+  box-sizing: border-box;
+  margin-left: 3vw;
+  border-radius: 50%;
+  border: 2px solid gray;
+  background-color: black;
+}
+
+.price-box {
+  display: flex;
+}
+
+.price-num {
+  text-align: left;
+  color: red;
+}
+
+.toPay-btn {
+  background-color: red;
+  text-align: center;
+}

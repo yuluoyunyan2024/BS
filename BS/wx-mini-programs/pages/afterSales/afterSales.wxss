@@ -1,0 +1,66 @@
+/* pages/afterSales/afterSales.wxss */
+/* pages/myAfterSales/myAfterSales.wxss */
+.container {
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #e7e5e9;
+}
+
+.item-container {
+  display: flex;
+  box-sizing: border-box;
+  width: 96vw;
+  margin: 0 auto;
+  height: 20vh;
+  margin-bottom: 2vw;
+  border-radius: 1vw;
+  background-color: white;
+}
+
+.item-image {
+  box-sizing: border-box;
+  width: 20vh;
+  height: 20vh;
+  padding: 1vw;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  box-sizing: border-box;
+  padding: 1vw 2vw 2vw 1vw;
+  position: relative;
+}
+
+.content-top-description {
+  min-height: 50%;
+}
+
+.content-middle-price {
+  color: red;
+  text-align: right;
+}
+
+.content-bottom-btn {
+  position: absolute;
+  bottom: 1vw;
+  right: 1vw;
+}
+
+.btn-buyAgain {
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 5vw;
+  padding: 1vw 4vw;
+  border: 1px solid #e7e5e9;
+}
+
+.btn-delete {
+  display: inline-block;
+  padding: 1vw 4vw;
+  margin-left: 3vw;
+  background-color: red;
+  border-radius: 5vw;
+}

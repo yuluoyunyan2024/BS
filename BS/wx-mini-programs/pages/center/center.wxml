@@ -1,0 +1,43 @@
+<!--pages/center/center.wxml-->
+
+<!-- 头像登录区域 -->
+<view class="userInfoContainer">
+  <view class="userInfo01">您好!</view>
+  <view class="userInfo02">{{nickname}}></view>
+</view>
+
+<!-- 幕布 -->
+<view class="backdrop"></view>
+
+<!-- 综合区域 -->
+<view class="tradeContainer generalContainer">
+  <view class="title">我的交易</view>
+  <view class="Item" bind:tap="toAwaitReceipt">
+    <image class="ItemImg" src="/images/center/orders.png" />
+    <view>等待收货</view>
+  </view>
+  <view class="Item" bind:tap="toAfterSales">
+    <image class="ItemImg" src="/images/center/myAfterSales.png" />
+    <view>售后服务</view>
+  </view>
+</view>
+
+<view class="serviceContainer generalContainer">
+  <view class="title">工具与服务</view>
+  <view class="Item" bind:tap="toFeedback">
+    <image class="ItemImg" src="/images/center/feedback.png" />
+    <view>意见反馈</view>
+  </view>
+  <view class="Item" bind:tap="toAboutUs">
+    <image class="ItemImg" src="/images/center/aboutUs.png" />
+    <view>关于我们</view>
+  </view>
+  <view class="Item" bind:tap="toPrivacyStatement">
+    <image class="ItemImg" src="/images/center/privacyStatement.png" />
+    <view>隐私声明</view>
+  </view>
+  <view class="Item" bind:tap="toAddress">
+    <image class="ItemImg" src="/images/center/address.png" />
+    <view>收货信息</view>
+  </view>
+</view>

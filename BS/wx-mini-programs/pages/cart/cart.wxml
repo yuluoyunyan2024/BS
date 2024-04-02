@@ -1,0 +1,37 @@
+<!--pages/cart/cart.wxml-->
+<!-- 顶部操作区域 -->
+<view class="navContainer">
+  <view bind:tap="delete">删除</view>
+</view>
+
+<!-- 订单列表区域 -->
+<scroll-view class="container" scroll-y>
+  <block wx:for="{{itemArray}}" wx:key="id">
+    <view class="item-container">
+      <view class="item-checkbox">
+        <checkbox class="checkbox" checked="{{item.checked}}" bind:tap="oneOfChecked" data-id="{{index}}" />
+      </view>
+      <image class="item-image" src="{{item.data.imgSrc}}" />
+      <view class="item-content">
+        <view>{{item.data.name}}</view>
+        <view>
+          <view class="bottom-btn">
+            <view bind:tap="decrease" data-id="{{index}}">-</view>
+            <view class="num-input">{{item.num}}</view>
+            <view bind:tap="increase" data-id="{{index}}">+</view>
+          </view>
+          <view class="bottom-price">¥{{item.data.price}}</view>
+        </view>
+      </view>
+    </view>
+  </block>
+
+</scroll-view>
+
+<!-- 底部操作区域 -->
+<view class="bottomContainer">
+  <checkbox class="bottom-checkbox" checked="{{allChecked}}" bind:tap="checkAll">全选</checkbox>
+  <view class="price-box">合计：<view class="price-num">¥{{totalPrice}}</view>
+  </view>
+  <view class="toPay-btn" bind:tap="toCheckout">去结算</view>
+</view>

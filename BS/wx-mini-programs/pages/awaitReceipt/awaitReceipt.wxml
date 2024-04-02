@@ -1,0 +1,14 @@
+<!--pages/myAfterSales/myAfterSales.wxml-->
+<scroll-view class="container" scroll-y>
+  <block wx:for="{{ordersData}}" wx:key="id">
+    <view class="item-container">
+      <image class="item-image" src="{{item.imgSrc}}" />
+      <view class="item-content">
+        <view class="content-top-description">{{item.name}} * {{item.num}}</view>
+        <view class="content-bottom-btn">
+          <view class="btn-requestRetrun" bind:tap="requestRetrun" data-id="{{index}}">取消订单</view>
+        </view>
+      </view>
+    </view>
+  </block>
+</scroll-view>

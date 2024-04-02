@@ -1,0 +1,56 @@
+/* pages/center/center.wxss */
+
+/* 登录信息区域 & 我的交易区域 & 工具与服务区域 */
+.generalContainer {
+  box-sizing: border-box;
+  width: 90vw;
+  margin: 0 auto 2vh;
+  padding: 3vw;
+  border-radius: 1vw;
+  background-color: black;
+  color: white;
+  font-size: 3vw;
+}
+
+/* 登录信息区域 */
+.userInfoContainer {
+  box-sizing: border-box;
+  width: 90vw;
+  margin: 12vh auto 4vh;
+  font-size: 3vw;
+  color: white;
+}
+
+.userInfoContainer .userInfo01{
+  margin-bottom: 0.1vh;
+}
+
+.userInfoContainer .userInfo02 {
+  font-size: 8vw;
+}
+
+.backdrop{
+  position: fixed;
+  top: 0;
+  z-index: -10;
+  width: 100vw;
+  height: 30vh;
+  background-color: rgb(255, 0, 0);
+}
+
+.title {
+  padding-bottom: 1vh;
+  font-size: 4vw;
+}
+
+.Item {
+  display: inline-block;
+  width: 20vw;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Item .ItemImg {
+  width: 10vw;
+  height: 10vw;
+}

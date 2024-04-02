@@ -1,0 +1,4 @@
+/* pages/queryResults/queryResults.wxss */
+page{
+  background-color: #e7e5e9;
+}

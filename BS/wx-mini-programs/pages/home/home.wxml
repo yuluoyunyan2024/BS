@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图区域 -->
+<CarouselContainer></CarouselContainer>
+
+<!-- 搜索框区域 -->
+<SearchBoxComtainer></SearchBoxComtainer>
+
+<!-- 商品展示区域 -->
+<image class="title" src="/images/index/todaySession.jpg"/>
+<DoubleContainer outData="{{homeData}}" bind:addToCart="addToCart"></DoubleContainer>

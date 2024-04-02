@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "SearchBoxContainer": "/components/SearchBoxContainer/SearchBoxContainer",
+    "DoubleContainer": "/components/DoubleContainer/DoubleContainer"
+  }
+}

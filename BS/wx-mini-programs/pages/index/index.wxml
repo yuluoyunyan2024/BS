@@ -1,0 +1,22 @@
+<!-- pages/testA/testA.wxml -->
+<form catchsubmit="formSubmit">
+  <!-- 头像区域 -->
+  <button class="row-avatar" open-type="chooseAvatar" bindchooseavatar="isHasAvatar">
+    <image class="avatar-url" src="{{avatarUrl}}"></image>
+  </button>
+  <!-- 昵称区域 -->
+  <view class="row-nick">
+    <view class="nick-prompt">昵称：</view>
+    <input class="nick-input" type="nickname" bindinput="isHasNick" value="{{inputValue}}"  placeholder="请输入昵称"/>
+    <!-- <input class="nick-input" type="nickname" bindinput="isHasNick" model:value="{{inputValue}}"  placeholder="请输入昵称"/> -->
+  </view>
+  <!-- 用户协议区域 -->
+  <view class="row-check">
+    <checkbox-group bindchange="isChecked">
+      <checkbox class="check-box" value="{{isChecked}}" />
+    </checkbox-group>
+    <view class="check-description">同意《用户服务协议》及《个人信息保护政策》</view>
+  </view>
+  <!-- 登录按钮区域 -->
+  <button class="{{loginBtnStyle ? 'loginActive' : 'login' }}" type="primary" form-type="submit" disabled="{{isDisabled}}">登录</button>
+</form>

@@ -1,0 +1,16 @@
+/**app.wxss**/
+
+/* 按钮 */
+.btn{
+  display: inline-block;
+  height: 6vh;
+  line-height: 6vh;
+  border-radius: 1vw;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+/* 提示性文字 */
+.description{
+  color: gray;
+}

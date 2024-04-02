@@ -1,0 +1,11 @@
+/* components/CarouselContainer.wxss */
+/* 轮播图区域 */
+.carousel-container {
+  height: 25vh;
+  width: 100vw;
+}
+
+.carousel-container .carousel-item {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,77 @@
+/* components/CartContainer/SingleContainer.wxss */
+/* 订单展示区域 */
+.container {
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 92vh;
+  padding: 8vh 0 10vh;
+  background-color: #e7e5e9;
+}
+
+.item-container {
+  box-sizing: border-box;
+  width: 96vw;
+  margin: 0 auto;
+  height: 20vh;
+  margin-bottom: 2vw;
+  border-radius: 1vw;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 3fr auto;
+}
+
+.item-checkbox{
+  box-sizing: border-box;
+  padding-left: 1vw;
+  height: 20vh;
+  line-height: 20vh;
+  text-align: center;
+}
+
+.checkbox .wx-checkbox-input {
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid gray;
+  background-color: black;
+}
+
+.item-image {
+  box-sizing: border-box;
+  width: 20vh;
+  height: 20vh;
+  padding: 1vw;
+}
+
+.item-content {
+  box-sizing: border-box;
+  height: 18vh;
+  padding: 1vw;
+  display: grid;
+  margin: 1vw;
+  grid-template-rows: 13vh 5vh;
+}
+
+.content-top {
+  width: 100%;
+}
+
+.content-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bottom-btn {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.num-input {
+  background-color: #e7e5e9;
+  border-radius: 3vw;
+}
+
+.bottom-price {
+  color: red;
+  text-align: right;
+}

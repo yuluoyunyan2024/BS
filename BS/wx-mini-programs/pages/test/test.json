@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "CarouselContainer": "/components/CarouselContainer/CarouselContainer",
+    "SearchBoxComtainer": "/components/SearchBoxContainer/SearchBoxContainer"
+  },
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#efefef",
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "如意日化"
+}

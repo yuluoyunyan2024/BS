@@ -1,0 +1,6 @@
+<!--pages/feedback/feedback.wxml-->
+<form class="container" bindsubmit="submitFeedback">
+  <!-- <textarea class="textarea" maxlength="300" auto-height placeholder="请输入您宝贵的建议！" model:value="{{textareaValue}}" /> -->
+  <textarea class="textarea" maxlength="300" auto-height placeholder="请输入您宝贵的建议！" name="textAreaValue" />
+  <button class="submit" form-type="submit">提交反馈</button>
+</form>

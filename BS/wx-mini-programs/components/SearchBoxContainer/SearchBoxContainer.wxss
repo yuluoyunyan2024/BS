@@ -1,0 +1,29 @@
+/* components/SearchBoxComtainer/SearchBoxComtainer.wxss */
+/* 搜索区域 */
+.searchBox-container {
+  box-sizing: border-box;
+  width: 96vw;
+  height: 6vh;
+  margin: 1vw 2vw;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.searchBox-image {
+  box-sizing: border-box;
+  position: absolute;
+  left: 3vw;
+  width: 6vw;
+  height: 6vw;
+}
+
+.searchBox-input {
+  box-sizing: border-box;
+  padding-left: 9vw;
+  border-radius: 1vw;
+  height: 100%;
+  width: 100%;
+  font-size: 4vw;
+  background-color: white;
+}

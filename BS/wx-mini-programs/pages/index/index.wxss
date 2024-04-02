@@ -1,0 +1,63 @@
+/* pages/testA/testA.wxss */
+.row-avatar {
+  padding: 0;
+  width: 56px !important;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+
+.avatar-url {
+  display: block;
+  width: 56px;
+  height: 56px;
+}
+
+.container {
+  display: flex;
+}
+
+.row-nick {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+  padding-left: 20rpx;
+}
+
+.nick-prompt {
+  flex: 2;
+}
+
+.nick-input {
+  flex: 6;
+}
+
+.row-check {
+  box-sizing: border-box;
+  padding: 20rpx;
+  display: flex;
+  align-items: center
+}
+
+.check-box .wx-checkbox-input {
+  box-sizing: border-box;
+}
+
+.check-description {
+  flex: 1;
+  font-size: 14px;
+  margin-left: 1vw;
+}
+
+.login {
+  margin-top: 5vh;
+  background-color: gray !important;
+}
+
+.loginActive {
+  margin-top: 5vh;
+  background-color: green;
+}

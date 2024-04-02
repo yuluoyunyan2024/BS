@@ -1,0 +1,17 @@
+<!--components/CarouselContainer.wxml-->
+<swiper class="carousel-container" autoplay circular>
+  <swiper-item>
+    <image class="carousel-item" src="/images/home/img01.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image class="carousel-item" src="/images/home/img02.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image class="carousel-item" src="/images/home/img03.jpg" />
+  </swiper-item>
+</swiper>
+<!-- <swiper class="carousel-container" autoplay circular wx:for="{{arr}}">
+  <swiper-item>
+    <image class="carousel-item" src="/images/home/{{item.imgSrc}}" />
+  </swiper-item>
+</swiper> -->

@@ -1,0 +1,32 @@
+/* pages/address/address.wxss */
+page {
+  background-color: #e7e5e9;
+}
+
+.container {
+  font-size: 14px;
+}
+
+.item {
+  display: flex;
+  padding: 3vw;
+  background-color: white;
+  margin-bottom: 2px;
+}
+
+.prompt {
+  width: 25%;
+}
+
+.input {
+  width: 75%;
+}
+
+/* 新增地址按钮 */
+.save-btn {
+  margin-top: 5vh;
+  border-radius: 5vh;
+  color: white;
+  background-color: red;
+  width: 90vw !important;
+}

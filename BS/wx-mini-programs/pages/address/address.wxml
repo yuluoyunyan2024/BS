@@ -1,0 +1,27 @@
+<!--pages/address/address.wxml-->
+<view class="container">
+  <form bindsubmit="reviseAdress">
+    <view class="item">
+      <view class="prompt">收货人：</view>
+      <input class="input" type="text" name="nickname" value="{{nickname}}" placeholder="请填写收货人姓名" />
+    </view>
+    <view class="item">
+      <view class="prompt">联系方式：</view>
+      <input class="input" type="number" name="phone" value="{{phone}}" placeholder="请填写收货人手机号" />
+    </view>
+    <view class="item">
+      <view class="prompt">详细地址：</view>
+      <textarea class="input" name="address" value="{{address}}" placeholder="请填写收货人详细地址" />
+    </view>
+    <!-- <view class="item">
+      <view class="name-prompt">详细地址：</view>
+      <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+        <view class="picker" wx:if="{{address[0]}}">
+          {{multiArray[0][multiIndex[0]]}}-{{multiArray[1][multiIndex[1]]}}-{{multiArray[2][multiIndex[2]]}}
+        </view>
+      </picker>
+      
+    </view> -->
+    <button class="save-btn" form-type="submit">保存</button>
+  </form>
+</view>

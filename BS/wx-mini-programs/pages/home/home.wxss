@@ -1,0 +1,11 @@
+/* pages/home/home.wxss */
+/* 轮播图区域 */
+/* 搜索框区域 */
+/* 商品展示区域 */
+page{
+  background-color: #e7e5e9;
+}
+.title{
+  width: 100%;
+  height: 15vh;
+}

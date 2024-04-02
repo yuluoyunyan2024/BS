@@ -1,0 +1,5 @@
+<!--components/SearchBoxComtainer/SearchBoxComtainer.wxml-->
+<view class="searchBox-container">
+  <image class="searchBox-image" bind:tap="searchGoods" src="/images/home/select.png" />
+  <input class="searchBox-input" model:value="{{searchParam}}" placeholder="搜索商品" />
+</view>
